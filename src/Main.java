@@ -1,12 +1,12 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Введите сумму пополнения: ");
-        int amounte = 1100;                                                 // Сумма внесения
+        int amounte = 1200;                                                 // Сумма внесения
         System.out.println("Cумма пополнения:" + amounte);
         int cashAccount = 100;                                              // Баланс денежного счёта
         int amountOfMoney = (amounte + cashAccount);                        // Сумма денег внесенныхна аккаунт
         int percent;
-        if (amounte > -1000) {
+        if (amounte > 1000) {
             percent = 1;
         } else {
             percent = 0;
